@@ -6,8 +6,6 @@ This architecture implements a Combinedinspection model:
 1.  **North-South (Internet) Traffic:** Is handled and inspected **locally** within each Application VPC. Traffic to/from the internet is routed through a local NGFW Endpoint and IGW.
 2.  **East-West (VPC-to-VPC) & Private Egress Traffic:** Is inspected **centrally**. All traffic from private subnets (to the internet) and all traffic between VPCs is routed to the TGW, which forces it through a central NGFW Endpoint in the Security VPC for inspection.
 
-## Project Structur
-
 
 ## How to Deploy
 
