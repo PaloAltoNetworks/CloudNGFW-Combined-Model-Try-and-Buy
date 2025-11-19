@@ -1,10 +1,10 @@
-# Terraform AWS Hybrid Inspection Model
+# Terraform Combined Deployment  Model
 
-This project deploys a complex, modular "hybrid inspection" network architecture on AWS using Terraform. It creates two "Application VPCs" and one "Security VPC," all connected via a Transit Gateway (TGW).
+This project deploys a complex, modular "hCombined Deployment Model"  on AWS using Terraform. It creates two "Application VPCs" and one "Security VPC," all connected via a Transit Gateway (TGW).
 
-This architecture implements a hybrid inspection model:
-1.  **North-South (Internet) Traffic:** Is handled and inspected **locally** within each Application VPC. Traffic to/from the internet is routed through a local GWLB Endpoint and IGW.
-2.  **East-West (VPC-to-VPC) & Private Egress Traffic:** Is inspected **centrally**. All traffic from private subnets (to the internet) and all traffic between VPCs is routed to the TGW, which forces it through a central GWLB Endpoint in the Security VPC for inspection.
+This architecture implements a Combinedinspection model:
+1.  **North-South (Internet) Traffic:** Is handled and inspected **locally** within each Application VPC. Traffic to/from the internet is routed through a local NGFW Endpoint and IGW.
+2.  **East-West (VPC-to-VPC) & Private Egress Traffic:** Is inspected **centrally**. All traffic from private subnets (to the internet) and all traffic between VPCs is routed to the TGW, which forces it through a central NGFW Endpoint in the Security VPC for inspection.
 
 ## Project Structur
 
