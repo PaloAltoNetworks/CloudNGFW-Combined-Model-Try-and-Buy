@@ -1,14 +1,4 @@
-# Cloud NGFW for AWS: Terraform Deployment Guide
 
-![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Palo Alto Networks](https://img.shields.io/badge/Palo%20Alto%20Networks-FA582D?style=for-the-badge&logo=paloaltonetworks&logoColor=white)
-
-**Version:** 1.0  
-**Date:** November 2025  
-**Maintained By:** Salman Syed - Principal TME
-
----
 
 ## 📖 Introduction
 
