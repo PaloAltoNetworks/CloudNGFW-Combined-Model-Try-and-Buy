@@ -17,8 +17,6 @@ The deployment creates a central **Security VPC (Hub)** that integrates with an 
 * **Hub:** Handles Egress and East-West inspection.
 * **Spokes:** Application VPCs hosting local Cloud NGFW endpoints for Ingress inspection.
 
-![Architecture Diagram](./images/architecture-diagram.png)
-*(Note: Ensure you place your architecture diagram in an `images` folder)*
 
 ## ✅ Prerequisites
 
