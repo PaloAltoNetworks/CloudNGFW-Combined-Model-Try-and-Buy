@@ -30,10 +30,11 @@ Before running the Terraform code, ensure you have the following:
 
 For complete instructions, please follow the guide here
 
+https://live.paloaltonetworks.com/t5/cloud-ngfw-for-aws-articles/cloud-ngfw-for-aws-scm-try-and-buy-deployment-guide-with/ta-p/1243010
 
 
 
-## icense & Support
+## License & Support
 
 **Corporate Headquarters:** Palo Alto Networks  
 3000 Tannery Way, Santa Clara, CA 95054
